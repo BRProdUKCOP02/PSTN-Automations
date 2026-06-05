@@ -1,0 +1,47 @@
+# Credentials - NEVER commit these
+config.py
+.env
+**/.env
+*.env
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Output files (generated data)
+output/
+adobe_sign_voice/output/
+order_check_output/
+incoming_orders/
+
+# Input files (may contain customer data)
+input/
+order_check_input/
+
+# Python cache
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Excel/PDF/JSON output files at root level
+*.xlsx
+*.pdf
+
+# Large files in adobe_sign_voice
+adobe_sign_voice/*.xlsx
+adobe_sign_voice/*.pdf
+
+# VS Code
+.vscode/
+
+# Windows
+Thumbs.db
+desktop.ini
